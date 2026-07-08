@@ -5,7 +5,7 @@ A simulated multi-site enterprise network demonstrating VLAN segmentation, inter
 
 ## Topology
 
-![Topology](docs/topology-diagram.png)
+![Topology](enterprise-network-simulation/docs/topology-diagram.png)
 
 | Device     | Role                                                      |
 |------------|-----------------------------------------------------------|
@@ -33,13 +33,13 @@ A simulated multi-site enterprise network demonstrating VLAN segmentation, inter
 ## Verification
 
 **OSPF neighbor adjacency and routing table (R1-HQ):**
-![Routing Table](docs/show-ip-route-r1.png)
+![Routing Table](enterprise-network-simulation/docs/show-ip-route-r1.png)
 
 **Successful ping — HR PC to Branch PC (proves OSPF end-to-end reachability):**
-![Ping Success](docs/ping-test-hr-to-branch.png)
+![Ping Success](enterprise-network-simulation/docs/ping-test-hr-to-branch.png)
 
 **Blocked ping — Branch PC to HR PC (proves ACL enforcement):**
-![Ping Blocked](docs/ping-test-acl-blocked.png)
+![Ping Blocked](enterprise-network-simulation/docs/ping-test-acl-blocked.png)
 
 ## Troubleshooting Process
 
